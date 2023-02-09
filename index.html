@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media only screen and (max-width: 768px) {
+            input[type="text"] {
+                width: 200px;
+            }
+            
+            #result-container {
+                font-size: 16px;
+            }
+            
+            #description-text {
+                font-size: 14px;
+  }
+}
+    </style>
+</head>
+<body>
+    <div id="love-tester">
+        <h1>Love Tester</h1>
+        <input type="text" id="name1" placeholder="Your Name">
+        <input type="text" id="name2" placeholder="Partner Name">
+        <button id="test-love">Test Love</button>
+        <div id="result-container">
+          <div id="result"></div>
+          <img id="love-gif" src="https://i.pinimg.com/originals/c0/68/60/c06860b058d7aadaa28874be0a723947.gif" style="display: none;" >
+          <img id="love-gif1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGk51VEGD02FZNGSvRzoZL--yomeWOgLG9w&usqp=CAU" style="display: none;">
+          <img id="love-gif2" src="https://media.tenor.com/CHY_VVpBbpIAAAAC/squish-cat.gif" style="display: none;">
+        </div>
+        <div id="description-container">
+            <p id="description-text">A love tester is a tool used to measure the compatibility and love potential between two people by entering their names and generating a percentage score. This score is for entertainment only and should not be considered scientifically accurate. It can be a fun way to play and see results, but caution is advised against spamming the button.</p>
+          </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
